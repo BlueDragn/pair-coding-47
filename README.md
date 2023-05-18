@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:  
+- Solution URL: [Git Repo](https://github.com/BlueDragn/pair-coding-47)
 - Live Site URL:
 
 ## Our process
@@ -45,7 +45,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- FlexBox
 - CSS Grid
 - Mobile-first workflow
  For styles
@@ -53,17 +53,17 @@ Users should be able to:
 
 ## Authors
 
-  **Maria Melnikova**
+**Maria Melnikova**
 
 - Profile Link : [Github]( https://github.com/mariagoldamg)
 
-  **Anshuman Singh**
+**Anshuman Singh**
 
 - Profile Link : [Github](https://github.com/BlueDragn)
 
-### Continous development
+### Continuous development
 
-- There is always room for improvment
+- There is always room for improvement
 - As our skills grow we will try to make it as identical to the design as possible
 - We will try to give it some personal touch
   
@@ -71,10 +71,10 @@ Users should be able to:
 
 ### Day 01 : May 17
 
-- Get to know each other through chingu discord channel.
+- Get to know each other through Chingu discord channel.
 - [Set a time to meet on when2meet](https://www.when2meet.com/?19527638-cw1jk)
 - Discussed about many which includes: <br>
-  - pair programing <br>
+  - pair programming <br>
   - which platform  for meeting <br>
   - Our working setup
   - live code share extension
