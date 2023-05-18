@@ -78,5 +78,7 @@ Users should be able to:
   - which platform  for meeting <br>
   - Our working setup
   - live code share extension
-
-### Day 02
+### Day 02 : May 18 (3hr)
+- Kicked off our coding session
+- Anshuman as pilot and Maria as Navigator
+- We took the mobile-first approach
