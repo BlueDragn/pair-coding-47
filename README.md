@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git Repo](https://github.com/BlueDragn/pair-coding-47)
-- Live Site URL:
+- Live Site URL: [Live Site](https://bluedragn.github.io/pair-coding-47/)
 
 ## Our process
 
