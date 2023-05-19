@@ -4,48 +4,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /*** Page Styling Begins ****/
@@ -53,66 +140,68 @@ table {
 /** Global Variables **/
 
 
-:root{
+:root {
 
-/** Colors **/
+    /** Colors **/
 
-/** Primary Colors **/
---Soft_red: hsl(7, 99%, 70%);
---Yellow: hsl(51, 100%, 49%);
---Dark_deSaturated_cyan: hsl(167, 40%, 24%);
---Dark_blue : hsl(198, 62%, 26%);
---Dark_moderate_Cyan: hsl(168, 34%, 41%);
+    /** Primary Colors **/
+    --Soft_red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark_deSaturated_cyan: hsl(167, 40%, 24%);
+    --Dark_blue: hsl(198, 62%, 26%);
+    --Dark_moderate_Cyan: hsl(168, 34%, 41%);
 
-/** Neutral Colors **/
+    /** Neutral Colors **/
 
---Very_dark_desaturated: hsl(212, 27%, 19%);
---Very_dark_grayish: hsl(213, 9%, 39%);
---Dark_grayish: hsl(232, 10%, 55%);
---Grayish : hsl(210, 4%, 67%);
---White: hsl(0, 0%, 100%);
+    --Very_dark_desaturated: hsl(212, 27%, 19%);
+    --Very_dark_grayish: hsl(213, 9%, 39%);
+    --Dark_grayish: hsl(232, 10%, 55%);
+    --Grayish: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
 
 
-/*** Font  Family**/
+    /*** Font  Family**/
 
-@font-face {
-    font-family: "Barlow";
-    src: url(https://fonts.google.com/specimen/Barlow);
+    @font-face {
+        font-family: "Barlow";
+        src: url(https://fonts.google.com/specimen/Barlow);
 
-    font-family:"Fraunces";
-    src:url(https://fonts.google.com/specimen/Fraunces);
-}
+        font-family: "Fraunces";
+        src: url(https://fonts.google.com/specimen/Fraunces);
+    }
 
 }
 
 /** Hero section **/
-.hero{
+.hero {
     background-image: url("../images/mobile/image-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 375px;
     height: 538px;
 }
+
 /** Navbar Style Begins **/
-.nav-bar{
-display: flex;
-justify-content: space-between;
-padding: 30px;
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 /** Header ***/
 
-.header{
-color: var(--White);
-font-family: 'Fraunces 9pt Soft';
-font-style: normal;
-font-weight: 900;
-font-size: 40px;
-line-height: 49px;
-text-align: center;
-letter-spacing: 6.25px;
-text-transform: uppercase;
+.header {
+    color: var(--White);
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
 }
+
 /* Grid Styling Begins ***/
 
 /* .egg-image >img{
@@ -122,79 +211,91 @@ height: 312px;
 
 
 /** Egg Image **/
-.egg-image{
+.egg-image {
     width: 375px;
     height: 312px;
     background-image: url("../images/mobile/image-transform.jpg");
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
-.grid-info{
+.grid-info {
     border: 1px solid red;
-   max-width: 375px;
+    max-width: 375px;
 
 
 }
 
-.info > h2{
+.info>h2 {
 
-font-family: 'Fraunces 9pt Soft';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 39px;
-text-align: center;
-letter-spacing: -0.228571px;
+    font-family: 'Fraunces 9pt Soft';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.228571px;
 
-color: #24303E;
-padding: 20px;
+    color: #24303E;
+    padding: 20px;
 }
-.info > p{
+
+.info>p {
     font-family: 'Barlow';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-text-align: center;
-letter-spacing: -0.128571px;
-color: var(--Dark_grayish);
-padding: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: var(--Dark_grayish);
+    padding: 20px;
 }
 
 /** Stand out **/
-.stand-out{
+.stand-out {
     width: 375px;
     height: 312px;
     background-image: url("../images/mobile/image-stand-out.jpg");
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 /** Apple **/
-.apple{
+
+
+.background-image {
     width: 375px;
-height: 600px;
-background-image: url("../images/mobile/image-graphic-design.jpg");
-background-size: contain;
-background-repeat: no-repeat;
+    height: 600px;
 
-position: relative;
-
-
+    position: relative;
 }
-.apple-info{
+
+#graphics{
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#photography{
+    background-image: url("../images/mobile/image-photography.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.background-info {
+
     position: absolute;
-    top:60%;
+    top: 60%;
 
 
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
 }
-.apple-info > h2{
+
+.background-info>h2 {
     font-family: 'Fraunces 9pt Soft';
     font-style: normal;
     font-weight: 900;
@@ -209,15 +310,16 @@ gap: 20px;
 
 
 }
-.apple-info > p{
-    font-family: 'Barlow';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 27px;
-/* or 169% */
-text-align: center;
-letter-spacing: -0.114286px;
 
-color: var(--Dark_deSaturated_cyan);
+.background-info>p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    text-align: center;
+    letter-spacing: -0.114286px;
+
+    color: var(--Dark_deSaturated_cyan);
 }
