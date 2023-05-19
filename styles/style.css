@@ -173,7 +173,7 @@ table {
 }
 
 /** Hero section **/
-.hero {
+.header {
     background-image: url("../images/mobile/image-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,7 +190,7 @@ table {
 
 /** Header ***/
 
-.header {
+.header-info {
     color: var(--White);
     font-family: 'Fraunces 9pt Soft';
     font-style: normal;

@@ -10,49 +10,42 @@
   <link rel="stylesheet" href="./styles/style.css">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
-
 </head>
 
 <body>
+  <header class="header">
+    <!-- Site Navigation -->
+    <nav class="nav-bar">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Logo" class="logo-image">
+      </div>
+  
+      <!-- Navigation Menu -->
+      <div class="navigation-menu">
+        <!-- Hamburger Menu Icon -->
+        <img src="./images/icon-hamburger.svg" alt="Hamburger Menu" class="hamburger" onclick="toggleNav()">
+  
+        <!-- Navigation Items -->
+        <ul class="nav-items" style="display: none;" id="navList">
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </nav>
+  
+    <!-- Header Info with Hero Image -->
+    <div class="header-info">
+      <h1> We are creatives </h1>
+      <img src="./images/icon-arrow-down.svg" alt="Scroll Down">
+    </div>
+  </header>
+
+<!----Header Ends ------->
 
   <section class="main">
-
-
-
-    <!--- Hero Section Begins -->
-    <section class="hero" id="hero-section">
-
-      <!-- Navigation  Begins -->
-      <div class="nav-bar">
-        <div class="logo">
-          <img src="./images/logo.svg" class="logo-image">
-        </div>
-
-
-        <div class="navigation-menu">
-          <img src="./images/icon-hamburger.svg" class="hamburger">
-          <ul class="nav-items" style="display: none;">
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <!--- Navbar Ends-->
-
-
-
-      </div>
-      <!-- Navigation Ends-->
-      <!--- Main Content ----->
-      <div class="header">
-        <h1> We are creatives </h1>
-        <img src="./images/icon-arrow-down.svg">
-      </div>
-    </section>
-    <!---- Hero Section Ends -->
-
-
 
     <!-- Grid Section Begins ---->
     <section class="grid-container">
@@ -172,30 +165,35 @@
 
 
   </section>
-<footer class="footer">
-<header class="footer-header">
-  <img src="./images/logo.svg">
-</header>
-<nav class="footer-nav">
-  <ul class="nav-items">
-    <li>About</li>
-    <li>Services</li>
-    <li>Products</li>
-  </ul>
-</nav>
-<div class="social-icons-bar">
-  <ul class="social-icons">
-<img src="./images/icon-facebook.svg">
-<img src="./images/icon-instagram.svg">
-<img src="./images/icon-twitter.svg">
-<img src="./images/icon-pinterest.svg">
+  <footer class="footer">
+    <header class="footer-header">
+      <img src="./images/logo.svg">
+    </header>
+    <nav class="footer-nav">
+      <ul class="nav-items">
+        <li>About</li>
+        <li>Services</li>
+        <li>Products</li>
+      </ul>
+    </nav>
+    <div class="social-icons-bar">
+      <ul class="social-icons">
+        <img src="./images/icon-facebook.svg">
+        <img src="./images/icon-instagram.svg">
+        <img src="./images/icon-twitter.svg">
+        <img src="./images/icon-pinterest.svg">
 
-  </ul>
-</div>
+      </ul>
+    </div>
 
-</footer>
+  </footer>
 
-
+  <script>
+    function toggleNav() {
+      var navList = document.getElementById("navList");
+      navList.style.display = navList.style.display === "none" ? "block" : "none";
+    }
+  </script>
 
 </body>
 
