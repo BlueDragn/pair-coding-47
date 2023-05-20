@@ -82,3 +82,13 @@ Users should be able to:
 - Kicked off our coding session
 - Anshuman as pilot and Maria as Navigator
 - We took the mobile-first approach
+
+**Maria Droped from this challange, so I will continue to work on my own or find another partner**
+### Day03 : May 19
+- Set up the page structure
+- Aligned the contianers and sections
+### Day04 : May 20
+- Cleaned up the HTML and CSS Code
+- Updated HTML with Semantic one
+- Mobile Design almost Complete
+- Begin with Desktop Design and responsiveness
