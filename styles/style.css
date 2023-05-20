@@ -183,13 +183,15 @@ body {
     font-family: "Barlow", sans-serif;
 }
 
-/** Hero section **/
+/** Header section with nav bar **/
 .header {
     background-image: url("../images/mobile/image-header.jpg");
-    background-size: cover;
+    background-size: contain;
+
     background-repeat: no-repeat;
+
     max-width: 375px;
-    height: 538px;
+    min-height: 538px;
 }
 
 /** Navbar Style Begins **/
@@ -211,8 +213,7 @@ body {
 .header-info {
     color: var(--White);
 
-    /***h1 Font***/
-
+    /***Font***/
     font-size: 40px;
     line-height: 49px;
     text-align: center;
@@ -222,11 +223,26 @@ body {
     margin-top: 56px;
 }
 
-.header-info>img {
+.header-info > img {
     margin-top: 51px;
 }
 
+/* Media query for desktop devices with a minimum width of 376px */
+@media (min-width: 376px) {
+    /*header*/
+    .header{
+        max-width: var(--max-width-desktop);
+        min-height:800px;
+        background-image: url("../images/desktop/image-header.jpg");
 
+        margin: 0;
+    }
+
+    /*  Navbar */
+    /* Background Image */
+
+
+  }
 
 /* Services Section Begins ***/
 
@@ -237,8 +253,8 @@ body {
 
 /** Egg Image **/
 .egg-image {
-    width: 375px;
-    height: 312px;
+    max-width: 375px;
+    min-height: 312px;
     background-image: url("../images/mobile/image-transform.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -258,7 +274,7 @@ body {
     padding: 20px;
 }
 
-.info > p {
+.info>p {
     /** Font style **/
     font-size: 18px;
     line-height: 30px;
