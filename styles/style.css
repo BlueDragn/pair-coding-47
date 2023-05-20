@@ -151,6 +151,8 @@ table {
     --Dark_blue: hsl(198, 62%, 26%);
     --Dark_moderate_Cyan: hsl(168, 34%, 41%);
 
+
+
     /** Neutral Colors **/
 
     --Very_dark_desaturated: hsl(212, 27%, 19%);
@@ -161,12 +163,13 @@ table {
 }
 
 /* Heading XL */
-h1{
+h1 {
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
 }
-p{
+
+p {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 600;
@@ -175,7 +178,8 @@ p{
 body {
     font-size: 18px;
     font-family: "Barlow", sans-serif;
-  }
+}
+
 /** Hero section **/
 .header {
     background-image: url("../images/mobile/image-header.jpg");
@@ -192,16 +196,16 @@ body {
     padding: 30px;
 }
 
-.nav-items{
-width: 329px;
-height: 329px;
-display: flex;
-justify-content: space-evenly;
+.nav-items {
+    width: 329px;
+    height: 329px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /** Header ***/
 
-.header-info{
+.header-info {
     color: var(--White);
 
     /***h1 Font***/
@@ -214,7 +218,8 @@ justify-content: space-evenly;
 
     margin-top: 56px;
 }
-.header-info >img{
+
+.header-info>img {
     margin-top: 51px;
 }
 
@@ -222,7 +227,7 @@ justify-content: space-evenly;
 
 /* Grid Styling Begins ***/
 
-.column-1{
+.column-1 {
     display: flex;
     flex-direction: column;
 }
@@ -244,7 +249,7 @@ justify-content: space-evenly;
 }
 
 .info>h1 {
-/***Font h1 Style ****/
+    /***Font h1 Style ****/
 
     font-size: 32px;
     line-height: 39px;
@@ -256,7 +261,7 @@ justify-content: space-evenly;
 }
 
 .info>p {
-/** p Font style **/
+    /** p Font style **/
 
     font-size: 18px;
     line-height: 30px;
@@ -337,10 +342,8 @@ justify-content: space-evenly;
     color: var(--Dark_deSaturated_cyan);
 }
 
-/** Client Testimony **/
+/** Client Testimony  Section Begins **/
 .testimonies-container {
-    /* width: 327px;
-    height: 1108px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -348,24 +351,9 @@ justify-content: space-evenly;
     align-items: center;
 }
 
-.testimonies-container>h2 {
-    /** Fonts h1 **/
-
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
-
-    text-align: center;
-    letter-spacing: 4px;
-    color: var(--Dark_grayish);
-
-    padding: 20px;
-}
-
-.card {
+.client {
     width: 327px;
     height: 288px;
-
 }
 
 .client-info {
@@ -378,69 +366,51 @@ justify-content: space-evenly;
 
 }
 
-/* .client-info>img{
-    border-radius: 50%;
-} */
-
-.profile-image {
+.profile-image>img {
     width: 70px;
     height: 70px;
-}
-
-#emily {
-    background-image: url("../images/image-emily.jpg");
-    background-size: cover;
-    background-position: center;
     border-radius: 50%;
-}
-
-#thomas {
-    background-image: url("../images/image-thomas.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-}
-
-#jennie {
-    background-image: url("../images/image-jennie.jpg");
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+    object-fit: cover;
 }
 
 .testimony {
-/**P font **/
-
+    /** Font style**/
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
     font-size: 18px;
     line-height: 32px;
-    /* or 178% */
-
     text-align: center;
     letter-spacing: -0.128571px;
-    color: var(--Dark_grayish);
-}
-
-.name {
-    /** Fonts **/
-
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.128571px;
+    color: var(--Very_dark_grayish);
 
 }
 
-.position {
-    /** Fonts **/
+.client-name {
+    /** Fonts style  **/
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: var(--Very_dark_desaturated);
 
+}
+
+.client-position {
+    /**Font style**/
     font-size: 14px;
     line-height: 25px;
-    /* identical to box height, or 179% */
-
     text-align: center;
     letter-spacing: -0.1px;
     color: var(--Grayish);
+
 }
+
+/** Testimony Section Ends **/
+
 
 
 /** Image Grid Section **/
@@ -469,40 +439,44 @@ justify-content: space-evenly;
     height: 188px;
     flex: 25%;
 }
+
 /**Footer **/
-.footer{
+.footer {
     width: 375px;
     height: 350px;
-    color:var(--Dark_deSaturated_cyan);
-    background-color:var(--Dark_moderate_Cyan);
+    color: var(--Dark_deSaturated_cyan);
+    background-color: var(--Dark_moderate_Cyan);
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.footer-nav{
-width: 297px;
-height: 25px;
+
+.footer-nav {
+    width: 297px;
+    height: 25px;
 }
-.nav-items{
+
+.nav-items {
     display: flex;
     justify-content: space-evenly;
 
-/** Font **/
+    /** Font **/
 
-font-size: 18px;
-line-height: 25px;
-/* identical to box height, or 139% */
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height, or 139% */
 
-letter-spacing: -0.128571px;
+    letter-spacing: -0.128571px;
 }
 
-.social-icons-bar{
-width: 164px;
-height: 20px;
+.social-icons-bar {
+    width: 164px;
+    height: 20px;
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     justify-content: space-evenly;
 }
